@@ -73,23 +73,22 @@
     echo "<br>";
 
     $plant6 = new Plant("Obuolys", "Malus domestica", true, 450, ["Afrika", "Azija", "Australija", "Europa", "Pietų Amerika", "Šiaurės Amerika"], 10);
-
     var_dump($plant6);
     echo "<br>";
 
-    $plant7 = new Plant();
+    $plant7 = new Plant("Karališkasis eukaliptas", "Eucalyptus regnans", true, 8000, ["Afrika", "Australija", "Pietų Amerika"], 100);
     var_dump($plant7);
     echo "<br>";
 
-    $plant8 = new Plant();
+    $plant8 = new Plant("Tikrasis baobabas", "Adansonia digitata", true, 1700, ["Afrika"], 1000);
     var_dump($plant8);
     echo "<br>";
 
-    $plant9 = new Plant();
+    $plant9 = new Plant("Smulkiavaisis fikusas", "Ficus microcarpa", true, 1500, ["Australija", "Azija"], 30);
     var_dump($plant9);
     echo "<br>";
 
-    $plant10 = new Plant();
+    $plant10 = new Plant("Amazoninė viktorija", "Victoria amazonica", true, 750, ["Pietų Amerika"], 7);
     var_dump($plant10);
     echo "<br>";
 
